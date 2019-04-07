@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1554635258911' stop='1554635258912'>
+    <name>Meetings ></name>
+    <title>Meetings ></title>
+    <test-cases>
+        <test-case start='1554635258911' status='pending' stop='1554635258912'>
+            <name>press on meetings tab</name>
+            <title>press on meetings tab</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1554635258912' status='pending' stop='1554635258912'>
+            <name>Create new item</name>
+            <title>Create new item</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

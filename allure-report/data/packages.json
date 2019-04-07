@@ -1,0 +1,85 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Test Login and Register page > ",
+    "children" : [ {
+      "name" : "Click on register button",
+      "uid" : "b081fb08169e89ac",
+      "parentUid" : "c1d81d6ed3364893c68babc4d9d56570",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554635248062,
+        "stop" : 1554635256153,
+        "duration" : 8091
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create four new users",
+      "uid" : "4ef57f37bd9919d9",
+      "parentUid" : "c1d81d6ed3364893c68babc4d9d56570",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554635256153,
+        "stop" : 1554635257961,
+        "duration" : 1808
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : " logout",
+      "uid" : "6044d92f643b8455",
+      "parentUid" : "c1d81d6ed3364893c68babc4d9d56570",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554635257961,
+        "stop" : 1554635258298,
+        "duration" : 337
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "login",
+      "uid" : "25cbfbc19c78d633",
+      "parentUid" : "c1d81d6ed3364893c68babc4d9d56570",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554635258298,
+        "stop" : 1554635258902,
+        "duration" : 604
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c1d81d6ed3364893c68babc4d9d56570"
+  }, {
+    "name" : "Meetings >",
+    "children" : [ {
+      "name" : "press on meetings tab",
+      "uid" : "71a297fc59824417",
+      "parentUid" : "f35e3ddecc0d766fd792390e32337f08",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1554635258911,
+        "stop" : 1554635258912,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create new item",
+      "uid" : "199749a84579ad00",
+      "parentUid" : "f35e3ddecc0d766fd792390e32337f08",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1554635258912,
+        "stop" : 1554635258912,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f35e3ddecc0d766fd792390e32337f08"
+  } ]
+}

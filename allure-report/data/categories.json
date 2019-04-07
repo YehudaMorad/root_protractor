@@ -1,0 +1,57 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected 'http://52.169.148.56:3000/register' to contain 'task'.",
+      "children" : [ {
+        "name" : "Create four new users",
+        "uid" : "4ef57f37bd9919d9",
+        "parentUid" : "94b01528ce8426211b3eee308c3a136b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554635256153,
+          "stop" : 1554635257961,
+          "duration" : 1808
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94b01528ce8426211b3eee308c3a136b"
+    }, {
+      "name" : "Failed: No element found using locator: By(css selector, body > section > section > div > div.panes-wrapper.ng-scope > div.detailspane.animate-hide.ng-isolate-scope > div.ng-isolate-scope > header > div.user-menu.dropdown > div > div)",
+      "children" : [ {
+        "name" : " logout",
+        "uid" : "6044d92f643b8455",
+        "parentUid" : "7e8dc89e4fb2dd0634caa1bd80982f61",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554635257961,
+          "stop" : 1554635258298,
+          "duration" : 337
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e8dc89e4fb2dd0634caa1bd80982f61"
+    }, {
+      "name" : "Expected 'http://52.169.148.56:3000/register' to contain 'tasks'.",
+      "children" : [ {
+        "name" : "login",
+        "uid" : "25cbfbc19c78d633",
+        "parentUid" : "ae3ef450d0a97132e0a336e24e080731",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554635258298,
+          "stop" : 1554635258902,
+          "duration" : 604
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae3ef450d0a97132e0a336e24e080731"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

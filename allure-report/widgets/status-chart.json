@@ -1,0 +1,61 @@
+[ {
+  "uid" : "4ef57f37bd9919d9",
+  "name" : "Create four new users",
+  "time" : {
+    "start" : 1554635256153,
+    "stop" : 1554635257961,
+    "duration" : 1808
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b081fb08169e89ac",
+  "name" : "Click on register button",
+  "time" : {
+    "start" : 1554635248062,
+    "stop" : 1554635256153,
+    "duration" : 8091
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71a297fc59824417",
+  "name" : "press on meetings tab",
+  "time" : {
+    "start" : 1554635258911,
+    "stop" : 1554635258912,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6044d92f643b8455",
+  "name" : " logout",
+  "time" : {
+    "start" : 1554635257961,
+    "stop" : 1554635258298,
+    "duration" : 337
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "199749a84579ad00",
+  "name" : "Create new item",
+  "time" : {
+    "start" : 1554635258912,
+    "stop" : 1554635258912,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "25cbfbc19c78d633",
+  "name" : "login",
+  "time" : {
+    "start" : 1554635258298,
+    "stop" : 1554635258902,
+    "duration" : 604
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

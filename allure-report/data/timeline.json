@@ -1,0 +1,77 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Create four new users",
+    "uid" : "4ef57f37bd9919d9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1554635256153,
+      "stop" : 1554635257961,
+      "duration" : 1808
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click on register button",
+    "uid" : "b081fb08169e89ac",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1554635248062,
+      "stop" : 1554635256153,
+      "duration" : 8091
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "press on meetings tab",
+    "uid" : "71a297fc59824417",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1554635258911,
+      "stop" : 1554635258912,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : " logout",
+    "uid" : "6044d92f643b8455",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1554635257961,
+      "stop" : 1554635258298,
+      "duration" : 337
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create new item",
+    "uid" : "199749a84579ad00",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1554635258912,
+      "stop" : 1554635258912,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "login",
+    "uid" : "25cbfbc19c78d633",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1554635258298,
+      "stop" : 1554635258902,
+      "duration" : 604
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

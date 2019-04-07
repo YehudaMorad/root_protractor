@@ -1,0 +1,47 @@
+{
+  "uid" : "71a297fc59824417",
+  "name" : "press on meetings tab",
+  "fullName" : "Meetings >.press on meetings tab",
+  "historyId" : "30e54fc1786eb964ddc36e08ca2e21b3",
+  "time" : {
+    "start" : 1554635258911,
+    "stop" : 1554635258912,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test was ignored",
+  "statusTrace" : "",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Meetings >"
+  }, {
+    "name" : "testClass",
+    "value" : "Meetings >"
+  }, {
+    "name" : "testMethod",
+    "value" : "press on meetings tab"
+  }, {
+    "name" : "package",
+    "value" : "Meetings >"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71a297fc59824417.json",
+  "parameterValues" : [ ]
+}

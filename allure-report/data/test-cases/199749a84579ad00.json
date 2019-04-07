@@ -1,0 +1,47 @@
+{
+  "uid" : "199749a84579ad00",
+  "name" : "Create new item",
+  "fullName" : "Meetings >.Create new item",
+  "historyId" : "b825e86bf92a3d15efc1187895dffe2d",
+  "time" : {
+    "start" : 1554635258912,
+    "stop" : 1554635258912,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test was ignored",
+  "statusTrace" : "",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Meetings >"
+  }, {
+    "name" : "testClass",
+    "value" : "Meetings >"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create new item"
+  }, {
+    "name" : "package",
+    "value" : "Meetings >"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "199749a84579ad00.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,116 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1554635248061' stop='1554635258902'>
+    <name>Test Login and Register page > </name>
+    <title>Test Login and Register page > </title>
+    <test-cases>
+        <test-case start='1554635248062' status='passed' stop='1554635256153'>
+            <name>Click on register button</name>
+            <title>Click on register button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='602d1a5a-c4b3-4cfe-98a9-bc913444ff00-attachment.png' type='image/png' size='20293'/>
+            </attachments>
+        </test-case>
+        <test-case start='1554635256153' status='failed' stop='1554635257961'>
+            <name>Create four new users</name>
+            <title>Create four new users</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fea907aa-ccba-40ab-a79f-d42ac5e53bea-attachment.png' type='image/png' size='27297'/>
+            </attachments>
+            <failure>
+                <message>Expected 'http://52.169.148.56:3000/register' to contain 'task'.</message>
+                <stack-trace>Error: Failed expectation
+                    at register_page.createUser (C:\Users\qayes\Documents\ICU protractor\Page\register_page.js:43:45)
+                    at UserContext.&lt;anonymous> (C:\Users\qayes\Documents\ICU protractor\ICU_protractor_spec.js:22:23)
+                    at C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1554635257961' status='failed' stop='1554635258298'>
+            <name> logout</name>
+            <title> logout</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4304c7e4-b3f1-4957-b40e-81d4c3e081b2-attachment.png' type='image/png' size='27297'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: By(css selector, body > section > section > div > div.panes-wrapper.ng-scope > div.detailspane.animate-hide.ng-isolate-scope > div.ng-isolate-scope > header > div.user-menu.dropdown > div > div)</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, body > section > section > div > div.panes-wrapper.ng-scope > div.detailspane.animate-hide.ng-isolate-scope > div.ng-isolate-scope > header > div.user-menu.dropdown > div > div)
+                    at elementArrayFinder.getWebElements.then (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+                    at ManagedPromise.invokeCallback_ (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as click] (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at task_page.logOut (C:\Users\qayes\Documents\ICU protractor\Page\task_page.js:7:205)
+                    at UserContext.&lt;anonymous> (C:\Users\qayes\Documents\ICU protractor\ICU_protractor_spec.js:31:19)
+                    at C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it(" logout") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\qayes\Documents\ICU protractor\ICU_protractor_spec.js:27:5)
+                    at addSpecsToSuite (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\qayes\Documents\ICU protractor\ICU_protractor_spec.js:3:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Module.load (internal/modules/cjs/loader.js:599:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1554635258298' status='failed' stop='1554635258902'>
+            <name>login</name>
+            <title>login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fb4d15d3-0182-4b25-a6e3-8d9340f53962-attachment.png' type='image/png' size='29209'/>
+            </attachments>
+            <failure>
+                <message>Expected 'http://52.169.148.56:3000/register' to contain 'tasks'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (C:\Users\qayes\Documents\ICU protractor\ICU_protractor_spec.js:40:41)
+                    at C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+                    at C:\Users\qayes\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

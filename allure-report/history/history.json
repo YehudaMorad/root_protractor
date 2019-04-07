@@ -1,0 +1,121 @@
+{
+  "30e54fc1786eb964ddc36e08ca2e21b3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71a297fc59824417",
+      "status" : "skipped",
+      "statusDetails" : "This test was ignored",
+      "time" : {
+        "start" : 1554635258911,
+        "stop" : 1554635258912,
+        "duration" : 1
+      }
+    } ]
+  },
+  "5d76280319b2205176d77a98bb1213d3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ef57f37bd9919d9",
+      "status" : "failed",
+      "statusDetails" : "Expected 'http://52.169.148.56:3000/register' to contain 'task'.",
+      "time" : {
+        "start" : 1554635256153,
+        "stop" : 1554635257961,
+        "duration" : 1808
+      }
+    } ]
+  },
+  "a2c352b845c47a60e2802c9411d45fd5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6044d92f643b8455",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, body > section > section > div > div.panes-wrapper.ng-scope > div.detailspane.animate-hide.ng-isolate-scope > div.ng-isolate-scope > header > div.user-menu.dropdown > div > div)",
+      "time" : {
+        "start" : 1554635257961,
+        "stop" : 1554635258298,
+        "duration" : 337
+      }
+    } ]
+  },
+  "b825e86bf92a3d15efc1187895dffe2d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "199749a84579ad00",
+      "status" : "skipped",
+      "statusDetails" : "This test was ignored",
+      "time" : {
+        "start" : 1554635258912,
+        "stop" : 1554635258912,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9363db25d47c5660ee1e17d9146fee37" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25cbfbc19c78d633",
+      "status" : "failed",
+      "statusDetails" : "Expected 'http://52.169.148.56:3000/register' to contain 'tasks'.",
+      "time" : {
+        "start" : 1554635258298,
+        "stop" : 1554635258902,
+        "duration" : 604
+      }
+    } ]
+  },
+  "f7406adcff010291222a2e479851c990" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b081fb08169e89ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554635248062,
+        "stop" : 1554635256153,
+        "duration" : 8091
+      }
+    } ]
+  }
+}

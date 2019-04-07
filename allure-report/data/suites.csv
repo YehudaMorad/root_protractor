@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sun Apr 07 14:07:36 IDT 2019","Sun Apr 07 14:07:37 IDT 2019","1808","","Test Login and Register page > ","","Test Login and Register page > ","Create four new users","Create four new users",""
+"passed","Sun Apr 07 14:07:28 IDT 2019","Sun Apr 07 14:07:36 IDT 2019","8091","","Test Login and Register page > ","","Test Login and Register page > ","Click on register button","Click on register button",""
+"skipped","Sun Apr 07 14:07:38 IDT 2019","Sun Apr 07 14:07:38 IDT 2019","1","","Meetings >","","Meetings >","press on meetings tab","press on meetings tab",""
+"failed","Sun Apr 07 14:07:37 IDT 2019","Sun Apr 07 14:07:38 IDT 2019","337","","Test Login and Register page > ","","Test Login and Register page > "," logout"," logout",""
+"skipped","Sun Apr 07 14:07:38 IDT 2019","Sun Apr 07 14:07:38 IDT 2019","0","","Meetings >","","Meetings >","Create new item","Create new item",""
+"failed","Sun Apr 07 14:07:38 IDT 2019","Sun Apr 07 14:07:38 IDT 2019","604","","Test Login and Register page > ","","Test Login and Register page > ","login","login",""

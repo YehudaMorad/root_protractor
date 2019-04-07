@@ -1,0 +1,69 @@
+{
+  "uid" : "4ef57f37bd9919d9",
+  "name" : "Create four new users",
+  "fullName" : "Test Login and Register page > .Create four new users",
+  "historyId" : "5d76280319b2205176d77a98bb1213d3",
+  "time" : {
+    "start" : 1554635256153,
+    "stop" : 1554635257961,
+    "duration" : 1808
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'http://52.169.148.56:3000/register' to contain 'task'.",
+  "statusTrace" : "Error: Failed expectation\n                    at register_page.createUser (C:\\Users\\qayes\\Documents\\ICU protractor\\Page\\register_page.js:43:45)\n                    at UserContext.<anonymous> (C:\\Users\\qayes\\Documents\\ICU protractor\\ICU_protractor_spec.js:22:23)\n                    at C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n                    at new ManagedPromise (C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n                    at ControlFlow.promise (C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n                    at schedulerExecute (C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n                    at TaskQueue.execute_ (C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at asyncRun (C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'http://52.169.148.56:3000/register' to contain 'task'.",
+    "statusTrace" : "Error: Failed expectation\n                    at register_page.createUser (C:\\Users\\qayes\\Documents\\ICU protractor\\Page\\register_page.js:43:45)\n                    at UserContext.<anonymous> (C:\\Users\\qayes\\Documents\\ICU protractor\\ICU_protractor_spec.js:22:23)\n                    at C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n                    at new ManagedPromise (C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n                    at ControlFlow.promise (C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n                    at schedulerExecute (C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n                    at TaskQueue.execute_ (C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at asyncRun (C:\\Users\\qayes\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ab6caa6c31f7ff32",
+      "name" : "Screenshot",
+      "source" : "ab6caa6c31f7ff32.png",
+      "type" : "image/png",
+      "size" : 27297
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Login and Register page > "
+  }, {
+    "name" : "testClass",
+    "value" : "Test Login and Register page > "
+  }, {
+    "name" : "testMethod",
+    "value" : "Create four new users"
+  }, {
+    "name" : "package",
+    "value" : "Test Login and Register page > "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4ef57f37bd9919d9.json",
+  "parameterValues" : [ ]
+}

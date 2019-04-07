@@ -1,0 +1,61 @@
+{
+  "uid" : "b081fb08169e89ac",
+  "name" : "Click on register button",
+  "fullName" : "Test Login and Register page > .Click on register button",
+  "historyId" : "f7406adcff010291222a2e479851c990",
+  "time" : {
+    "start" : 1554635248062,
+    "stop" : 1554635256153,
+    "duration" : 8091
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "790f2818f473ba0c",
+      "name" : "Screenshot",
+      "source" : "790f2818f473ba0c.png",
+      "type" : "image/png",
+      "size" : 20293
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Login and Register page > "
+  }, {
+    "name" : "testClass",
+    "value" : "Test Login and Register page > "
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on register button"
+  }, {
+    "name" : "package",
+    "value" : "Test Login and Register page > "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b081fb08169e89ac.json",
+  "parameterValues" : [ ]
+}
